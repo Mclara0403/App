@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 st.image("Foto-empresa.png")
 st.link_image("https://www.starbucks.com.br/")
 st.write("Site Clara Ferreira")
