@@ -4,14 +4,6 @@ import base64
 # CONFIG
 st.set_page_config(page_title="Perfil", layout="wide")
 
-# FUNÇÃO base64
-def get_base64_image(path):
-    with open(path, "rb") as img_file:
-        return base64.b64encode(img_file.read()).decode()
-
-img_base64 = get_base64_image("star.png")
-zap_base64 = get_base64_image("zap2026.png")
-
 # TOPO (imagem clicável)
 col1, col2, col3 = st.columns([1,2,1])
 
@@ -19,7 +11,7 @@ with col2:
     st.markdown(f"""
         <div style="text-align: center; margin-bottom: 50px;">
             <a href="https://www.starbucks.com.br/" target="_blank">
-                <img src="Foto-empresa.png,{img_base64}" 
+                <img src="Foto-empresa.png" 
                      width="320" 
                      style="border-radius:12px;">
             </a>
@@ -79,7 +71,7 @@ with col_right:
 st.markdown(f"""
     <div style="text-align: center; margin-top: 10px;">
         <a href="https://web.whatsapp.com/" target="_blank">
-            <img src="https://web.whatsapp.com/" width="100">
+            <img src="donwload.png" width="100">
         </a>
     </div>
 """, unsafe_allow_html=True)
