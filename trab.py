@@ -29,7 +29,7 @@ with col2:
     st.markdown(f"""
         <div style="text-align: center; margin-bottom: 50px;">
             <a href="https://www.starbucks.com.br/" target="_blank">
-                <img src="data:Foto-empresa.png;base64,{img_base64}" 
+                <img src="Foto-empresa.png,{img_base64}" 
                      width="320" 
                      style="border-radius:12px;">
             </a>
@@ -88,8 +88,8 @@ with col_right:
 # 🔥 NOVO BLOCO (WhatsApp clicável no final)
 st.markdown(f"""
     <div style="text-align: center; margin-top: 10px;">
-        <a href="https://wa.me/5583998234415" target="_blank">
-            <img src="data:image/png;base64,{zap_base64}" width="100">
+        <a href="https://web.whatsapp.com/" target="_blank">
+            <img src="https://web.whatsapp.com/" width="100">
         </a>
     </div>
 """, unsafe_allow_html=True)
